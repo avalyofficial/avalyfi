@@ -363,6 +363,26 @@ body {
   flex-direction: column;
   gap: 24px;
 }
+
+/* Social Icons in Footer */
+.socials {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.socials a img {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background: black;
+  padding: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.socials a img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 .footer-top {
   display: flex;
   justify-content: space-between;
